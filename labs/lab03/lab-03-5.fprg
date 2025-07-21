@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="lab-03-5"/>
+        <attribute name="authors" value="Admin"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-07-21 12:46:49 PM"/>
+        <attribute name="created" value="QWRtaW47REVTS1RPUC1RQTU1NUVWOzIwMjUtMDctMjE7MTI6Mjg6NDQgUE07MjgxNg=="/>
+        <attribute name="edited" value="QWRtaW47REVTS1RPUC1RQTU1NUVWOzIwMjUtMDctMjE7MTI6NDY6NDkgUE07MjsyOTMw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="pack" type="Integer" array="False" size=""/>
+            <input variable="pack"/>
+            <declare name="piecesCookies" type="Integer" array="False" size=""/>
+            <assign variable="piecesCookies" expression="40 * pack"/>
+            <declare name="serving" type="Real" array="False" size=""/>
+            <assign variable="serving" expression="pack * 10 * 300"/>
+            <declare name="totalCalories" type="Real" array="False" size=""/>
+            <assign variable="totalCalories" expression="serving + piecesCookies"/>
+            <output expression="totalCalories" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

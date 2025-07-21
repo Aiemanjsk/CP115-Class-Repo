@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="lab-03-6"/>
+        <attribute name="authors" value="Admin"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-07-21 01:02:16 PM"/>
+        <attribute name="created" value="QWRtaW47REVTS1RPUC1RQTU1NUVWOzIwMjUtMDctMjE7MTI6NDY6NTMgUE07MjgxNg=="/>
+        <attribute name="edited" value="QWRtaW47REVTS1RPUC1RQTU1NUVWOzIwMjUtMDctMjE7MDE6MDI6MTYgUE07MTsyOTEz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="lenghtHouseArea" type="Real" array="False" size=""/>
+            <input variable="lenghtHouseArea"/>
+            <declare name="widthHouseArea" type="Real" array="False" size=""/>
+            <input variable="WidthHouseArea"/>
+            <declare name="areaHouseArea" type="Real" array="False" size=""/>
+            <assign variable="areaHouseArea" expression="widthHouseArea * lenghtHouseArea"/>
+            <output expression="areaHouseArea" newline="True"/>
+            <declare name="widthHouse" type="Real" array="False" size=""/>
+            <input variable="widthHouse"/>
+            <declare name="lenghtHouse" type="Real" array="False" size=""/>
+            <input variable="lenghtHouse"/>
+            <declare name="areaHouse" type="Real" array="False" size=""/>
+            <assign variable="areaHouse" expression="lenghtHouse * widthHouse"/>
+            <output expression="areaHouse" newline="True"/>
+            <declare name="priceDiesel" type="Real" array="False" size=""/>
+            <assign variable="priceDiesel" expression="(areaHouseArea - Areahouse) * 2.00"/>
+            <output expression="priceDiesel" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
