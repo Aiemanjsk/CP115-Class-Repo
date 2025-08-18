@@ -1,0 +1,6 @@
+fullName=input("what's your name: ")
+uppercase_name = fullName.upper()
+lowercase_name = fullName.lower()
+print(uppercase_name)
+print(lowercase_name)
+print(len(fullName))
