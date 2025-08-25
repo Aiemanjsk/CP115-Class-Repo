@@ -1,0 +1,10 @@
+score1 = 85
+score2 = 92.5
+score3 = 78
+averageScore = (score1 + score2 + score3)/3
+print(f"15.0 / 4 = {averageScore} (type: {type(averageScore)})")
+print(int(averageScore))
+calc = score1 ** 2 / score2 + score3 % 7
+print(f"15.0 / 4 = {calc} (type: {type(calc)})")
+print(int(score2))
+print(float(score1))
